@@ -6,7 +6,7 @@ class Libechonest < BaseKdeFormula
   sha1 '77b06cfb96675c4795902c68a802b71a33a0b48f'
 
   depends_on 'cmake' => :build
-  depends_on 'qt'
+  depends_on 'anonymooseable/kde/qt'
   depends_on 'qjson'
 
   conflicts_with 'doxygen', :because => "cmake fails to configure build."

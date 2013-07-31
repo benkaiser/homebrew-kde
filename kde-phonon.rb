@@ -9,7 +9,7 @@ class KdePhonon < Formula
   depends_on 'xz' => :build
   depends_on 'cmake' => :build
   depends_on 'automoc4' => :build
-  depends_on 'qt'
+  depends_on 'anonymooseable/kde/qt'
   depends_on 'glib' => :build
 
   keg_only "This package is already supplied by Qt and is only needed by KDE packages."
