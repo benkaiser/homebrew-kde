@@ -22,7 +22,7 @@ class Kdelibs < BaseKdeFormula
   depends_on 'xz'
   depends_on 'docbook'
   depends_on 'd-bus'
-  depends_on 'qt'
+  depends_on 'anonymooseable/kde/qt'
   #depends_on 'libdbusmenu-qt' also need dbus and the recipe need to be ported to my system.
   depends_on 'aspell' => :optional
   depends_on 'enchant' => :optional

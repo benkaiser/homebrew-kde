@@ -12,5 +12,5 @@ class Kamera < BaseKdeFormula
   end
 
   depends_on 'gphoto2'
-  depends_on 'qt'
+  depends_on 'anonymooseable/kde/qt'
 end

@@ -6,7 +6,7 @@ class Qca < Formula
   md5 'fc15bd4da22b8096c51fcfe52d2fa309'
   sha1 '9c868b05b81dce172c41b813de4de68554154c60'
 
-  depends_on 'qt'
+  depends_on 'anonymooseable/kde/qt'
 
   # Fix for clang adhering strictly to standard, see http://clang.llvm.org/compatibility.html#dep_lookup_bases
   # See upstream report: https://bugs.kde.org/show_bug.cgi?id=307470

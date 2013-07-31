@@ -7,7 +7,7 @@ class Strigi < BaseKdeFormula
   sha1 '7250fb15109d33b0c49995a2cc3513ba7d937882'
 
   depends_on 'clucene'
-  #depends_on 'ffmpeg'
+  #depends_on 'anonymooseable/kde/ffmpeg'
   depends_on 'exiv2' => :optional
 
   def extra_cmake_args
