@@ -1,3 +1,4 @@
+$: << File.expand_path(File.join(__FILE__, '..'))
 require 'formula'
 
 class BaseKdeFormula < Formula
